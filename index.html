@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chemistry Master Cheatsheet | Ishika's Board Prep 2026</title>
+    <title>Chemistry Master Cheatsheet | Board 2026 Prep</title>
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,11 +23,11 @@
     <nav class="sidebar">
         <div class="logo">🧪 <span>ChemMaster</span></div>
         <ul class="nav-links">
-            <li class="active" data-target="physical"><span>💧</span> Physical</li>
-            <li data-target="inorganic"><span>💠</span> Inorganic</li>
-            <li data-target="organic"><span>🌿</span> Organic</li>
-            <li data-target="applied"><span>🧪</span> Applied</li>
-            <li data-target="hotspots" class="vibrant"><span>🔥</span> Exam Hotspots</li>
+            <li class="active" data-target="physical"><span>⚡</span> Units 1-3: Physical</li>
+            <li data-target="inorganic"><span>💎</span> Units 4-5: Inorganic</li>
+            <li data-target="organic"><span>🧪</span> Units 6-9: Organic</li>
+            <li data-target="applied"><span>🧬</span> Unit 10: Biomolecules</li>
+            <li data-target="hotspots" class="vibrant"><span>✨</span> Revision Booster</li>
         </ul>
         <div class="sidebar-footer">
             <p>Made for Ishika ❤️</p>
@@ -37,475 +37,280 @@
     <main class="content">
         <header class="main-header">
             <div class="header-text">
-                <h1>Board Exam 2026 <span class="highlight">Master Sheet</span></h1>
-                <p>Ab ki baar, 95+ paar! Ishu, follow this guide to crush your Chemistry exam.</p>
+                <h1>Chemistry <span class="highlight">Formula Bible</span></h1>
+                <p>Strictly as per NCERT 2026 Index. Best of luck, Ishu!</p>
             </div>
             <div class="search-bar">
-                <input type="text" id="formulaSearch" placeholder="Search formulas (e.g. Nernst, Rate Law)...">
+                <input type="text" id="formulaSearch" placeholder="Search (e.g. Nernst, SN1, Glucose)..."
+                    class="search-input">
                 <span class="search-icon">🔍</span>
             </div>
         </header>
 
         <div class="chapter-grid" id="mainContainer">
-            <!-- Physical Chemistry Section (5 Chapters) -->
+            <!-- Units 1-3: Physical Chemistry -->
             <section id="physical" class="section active">
-                <div class="section-banner solutions">
+                <div class="section-banner physical">
                     <h2>Physical Chemistry Dashboard</h2>
-                    <p>Solid State • Solutions • Electro • Kinetics • Surface</p>
+                    <p>Unit 1: Solutions • Unit 2: Electrochemistry • Unit 3: Chemical Kinetics</p>
                 </div>
-
                 <div class="cards-container">
-                    <!-- 1. Solid State -->
+                    <!-- Unit 1 -->
                     <div class="formula-card">
                         <div class="card-header">
-                            <h3>1. Solid State</h3>
-                            <span class="badge">Advanced</span>
+                            <h3>Unit 1: Solutions</h3>
+                            <span class="badge high">Numerical Heavy</span>
                         </div>
                         <div class="item">
-                            <label>r vs a Relationship</label>
+                            <label>Concentration Math</label>
                             <div class="math-box">
-                                <b>SCC:</b> \(r = a/2\) <br>
-                                <b>BCC:</b> \(r = \frac{\sqrt{3}}{4}a\) <br>
-                                <b>FCC/CCP:</b> \(r = \frac{a}{2\sqrt{2}}\)
-                            </div>
-                        </div>
-                        <div class="item">
-                            <label>Efficiency & Voids</label>
-                            <div class="math-box">
-                                <b>Tetrahedral:</b> 2N <br>
-                                <b>Octahedral:</b> N <br>
-                                <b>Efficiency:</b> 52.4%, 68%, 74%
-                            </div>
-                        </div>
-                        <div class="item highlight">
-                            <label>Master Density Formula</label>
-                            <div class="math-box">\(d = \frac{Z \cdot M}{a^3 \cdot N_A}\)</div>
-                            <p class="exam-pro-tip">💡 Z = 1 (SCC), 2 (BCC), 4 (FCC). <br> \(a\) must be in cm (if \(a\)
-                                is in pm, multiply by \(10^{-30}\) at bottom).</p>
-                        </div>
-                        <div class="item">
-                            <label>Radius Ratio (\(r^+ / r^-\))</label>
-                            <p class="exam-pro-tip">0.155-0.225 (3) | 0.225-0.414 (4) | 0.414-0.732 (6) | 0.732-1.000
-                                (8).</p>
-                        </div>
-                    </div>
-
-                    <!-- 2. Solutions -->
-                    <div class="formula-card">
-                        <div class="card-header">
-                            <h3>2. Solutions</h3>
-                            <span class="badge">Master List</span>
-                        </div>
-                        <div class="item">
-                            <label>Concentration Metrics</label>
-                            <div class="math-box">
-                                \(M = \frac{W_B \times 1000}{M_B \times V(ml)} \quad | \quad m = \frac{W_B \times
-                                1000}{M_B \times W_A(g)}\) <br>
-                                \(\chi_B = \frac{n_B}{n_A + n_B} \quad | \quad ppm = \frac{W_B}{W_{soln}} \times 10^6\)
-                            </div>
-                        </div>
-                        <div class="item">
-                            <label>Vapour Pressure Laws</label>
-                            <div class="math-box">
-                                <b>Henry:</b> \(P = K_H \cdot \chi\) <br>
-                                <b>Raoult:</b> \(P_{Total} = P_A^0\chi_A + P_B^0\chi_B\) <br>
-                                <b>RLVP:</b> \(\frac{P_A^0 - P_s}{P_A^0} = i \chi_B\)
+                                \(M = \frac{n_B}{V(L)} \quad | \quad m = \frac{n_B}{W_A(kg)} \quad | \quad \chi_B =
+                                \frac{n_B}{n_A + n_B}\)
                             </div>
                         </div>
                         <div class="item highlight">
                             <label>Colligative Heavyweights</label>
                             <div class="math-box">
-                                \(\Delta T_b = i K_b m \quad | \quad \Delta T_f = i K_f m\) <br>
-                                \(\pi = i CRT \quad (R = 0.0821)\)
+                                \(\Delta T_b = i K_b m \quad (K_b = \text{Ebullioscopic})\) <br>
+                                \(\Delta T_f = i K_f m \quad (K_f = \text{Cryoscopic})\) <br>
+                                \(\pi = i CRT \quad | \quad \frac{P^0-P}{P^0} = i \chi_B\)
                             </div>
-                        </div>
-                        <div class="item">
-                            <label>Van't Hoff (\(i\)) & \(\alpha\)</label>
-                            <p class="exam-pro-tip">\(i = 1+(n-1)\alpha\) (Dissociation). For Association, \(i =
-                                1+(1/n-1)\alpha\). Always include \(i\) in colligative formulas!</p>
+                            <p class="exam-pro-tip">💡 <b>Van't Hoff (\(i\)):</b> Check if solute is NaCl (\(i=2\)),
+                                \(Na_2SO_4\) (\(i=3\)), or Urea (\(i=1\)).</p>
                         </div>
                     </div>
 
-                    <!-- 3. Electrochemistry -->
+                    <!-- Unit 2 -->
                     <div class="formula-card">
                         <div class="card-header">
-                            <h3>3. Electrochemistry</h3>
-                            <span class="badge">Numerical Bible</span>
-                        </div>
-                        <div class="item">
-                            <label>Resistance & Conductivity</label>
-                            <div class="math-box">
-                                \(\kappa = \frac{1}{R} \cdot \frac{l}{A} \quad | \quad G^* = l/A\) <br>
-                                \(\Lambda_m = \frac{\kappa \times 1000}{C}\)
-                            </div>
+                            <h3>Unit 2: Electrochemistry</h3>
+                            <span class="badge critical">Weightage</span>
                         </div>
                         <div class="item highlight">
-                            <label>Nernst & Gibbs</label>
-                            <div class="math-box">
-                                \(E = E^0 - \frac{0.0591}{n} \log Q\) <br>
-                                \(\Delta G^0 = -nFE^0 = -2.303 RT \log K_c\)
-                            </div>
+                            <label>Nernst Equation (Master)</label>
+                            <div class="math-box">\(E_{cell} = E^0_{cell} - \frac{0.0591}{n} \log Q\)</div>
                         </div>
                         <div class="item">
-                            <label>Faraday's Laws</label>
-                            <div class="math-box">\(w = \frac{E \cdot I \cdot t}{96500} \quad | \quad Q = nF\)</div>
-                            <p class="exam-pro-tip">💡 \(1F = 96487 \text{ C mol}^{-1}\). Charge of 1 electron = \(1.6
-                                \times 10^{-19} \text{ C}\).</p>
+                            <label>Kohlrausch & Gibbs</label>
+                            <div class="math-box">\(\Lambda_m^0 = \nu_+ \lambda_+^0 + \nu_- \lambda_-^0 \quad | \quad
+                                \Delta G^0 = -nFE^0\)</div>
+                        </div>
+                        <div class="item">
+                            <label>Quantity of Charge (\(Q\))</label>
+                            <div class="math-box">\(Q = It = nF\)</div>
+                            <p class="exam-pro-tip">💡 \(1F = 96487 \text{ C mol}^{-1}\) (usually taken as 96500).</p>
                         </div>
                     </div>
 
-                    <!-- 4. Chemical Kinetics -->
+                    <!-- Unit 3 -->
                     <div class="formula-card">
                         <div class="card-header">
-                            <h3>4. Chemical Kinetics</h3>
-                            <span class="badge">Time-Speed</span>
+                            <h3>Unit 3: Chemical Kinetics</h3>
+                            <span class="badge">Speed</span>
                         </div>
-                        <div class="item">
+                        <div class="item highlight">
                             <label>Integrated Rate Laws</label>
                             <div class="math-box">
-                                <b>0 Order:</b> \([R] = -kt + [R]_0\) <br>
-                                <b>1st Order:</b> \(k = \frac{2.303}{t} \log \frac{[R]_0}{[R]}\)
+                                <b>0 Order:</b> \(k = \frac{[A]_0 - [A]}{t}\) <br>
+                                <b>1st Order:</b> \(k = \frac{2.303}{t} \log \frac{[A]_0}{[A]}\)
                             </div>
                         </div>
                         <div class="item">
-                            <label>Half-Life (\(t_{1/2}\))</label>
+                            <label>Half-Life Logic</label>
                             <div class="math-box">
-                                <b>0 Order:</b> \([R]_0 / 2k\) <br>
-                                <b>1st Order:</b> \(0.693 / k\)
-                            </div>
-                        </div>
-                        <div class="item highlight">
-                            <label>Arrhenius Suite</label>
-                            <div class="math-box">
-                                \(k = A \cdot e^{-E_a/RT}\) <br>
-                                \(\log \frac{k_2}{k_1} = \frac{E_a}{2.303 R} \left[ \frac{T_2 - T_1}{T_1 T_2} \right]\)
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- 5. Surface Chemistry -->
-                    <div class="formula-card">
-                        <div class="card-header">
-                            <h3>5. Surface Chemistry</h3>
-                            <span class="badge">Conceptual Formulas</span>
-                        </div>
-                        <div class="item highlight">
-                            <label>Freundlich Isotherm</label>
-                            <div class="math-box">
-                                \(\frac{x}{m} = k p^{1/n}\) <br>
-                                \(\log \frac{x}{m} = \log k + \frac{1}{n} \log p\)
+                                \(t_{1/2} (0^{th}) = \frac{[A]_0}{2k} \quad | \quad t_{1/2} (1^{st}) = \frac{0.693}{k}\)
                             </div>
                         </div>
                         <div class="item">
-                            <label>Hardy-Schulze Rule</label>
-                            <p class="exam-pro-tip">Coagulating value \(\propto 1 / \text{Coagulating Power}\). High
-                                valency = High Power = Low Value!</p>
+                            <label>Arrhenius Suitre</label>
+                            <div class="math-box">\(\log \frac{k_2}{k_1} = \frac{E_a}{2.303 R} \left[ \frac{T_2 -
+                                T_1}{T_1 T_2} \right]\)</div>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <!-- Inorganic Section (4 Chapters) -->
+            <!-- Units 4-5: Inorganic Chemistry -->
             <section id="inorganic" class="section">
                 <div class="section-banner inorganic">
                     <h2>Inorganic Chemistry Hub</h2>
-                    <p>Metallurgy • p-Block • d & f-Block • Coordination</p>
+                    <p>Unit 4: d & f Block Elements • Unit 5: Coordination Compounds</p>
                 </div>
                 <div class="cards-container">
-                    <!-- 6. Metallurgy -->
+                    <!-- Unit 4 -->
                     <div class="formula-card">
                         <div class="card-header">
-                            <h3>6. Isolation (Metallurgy)</h3>
-                            <span class="badge">Purification</span>
+                            <h3>Unit 4: d & f Elements</h3>
+                            <span class="badge">Reasoning</span>
                         </div>
                         <div class="item highlight">
-                            <label>Master Refinement List</label>
-                            <p class="exam-pro-tip">
-                                • <b>Mond:</b> \(Ni + 4CO \rightarrow Ni(CO)_4\)<br>
-                                • <b>Van Arkel:</b> \(Zr, Ti\) (Iodide decomposition)<br>
-                                • <b>Cyanide:</b> \(Au, Ag\) (Complex formation)<br>
-                                • <b>Bayer's:</b> \(Al\) (Amphoteric leaching)
-                            </p>
-                        </div>
-                        <div class="item">
-                            <label>Column Chromatography</label>
-                            <p class="exam-pro-tip">Used for purification of trace elements whose impurities have
-                                similar chemical properties but different adsorption rates.</p>
-                        </div>
-                    </div>
-
-                    <!-- 7. p-Block -->
-                    <div class="formula-card">
-                        <div class="card-header">
-                            <h3>7. p-Block Mastery</h3>
-                            <span class="badge">Must-Know</span>
-                        </div>
-                        <div class="item highlight">
-                            <label>Key Industrial Processes</label>
-                            <p class="exam-pro-tip">
-                                • <b>Haber:</b> \(N_2 + 3H_2 \rightleftharpoons 2NH_3\) (Fe catalyst)<br>
-                                • <b>Ostwald:</b> \(NH_3 \rightarrow NO \rightarrow NO_2 \rightarrow HNO_3\)<br>
-                                • <b>Contact:</b> \(SO_2 \rightarrow SO_3 \rightarrow H_2SO_4\) (\(V_2O_5\))<br>
-                                • <b>Deacon:</b> \(HCl \rightarrow Cl_2\) (\(CuCl_2\) cat)
-                            </p>
-                        </div>
-                        <div class="item">
-                            <label>Xenon Fluorides Math</label>
-                            <p class="exam-pro-tip">
-                                \(XeF_2\) (Linear, 3 LP) | \(XeF_4\) (Sq. Planar, 2 LP) | \(XeF_6\) (Dist. Oct, 1 LP).
-                            </p>
-                        </div>
-                    </div>
-
-                    <!-- 8. d & f Block -->
-                    <div class="formula-card">
-                        <div class="card-header">
-                            <h3>8. d & f Elements</h3>
-                            <span class="badge">Numerical</span>
-                        </div>
-                        <div class="item highlight">
-                            <label>Magnetic Moment (\(\mu\))</label>
+                            <label>Magnetic Momentum</label>
                             <div class="math-box">\(\mu = \sqrt{n(n+2)} \, \text{BM}\)</div>
-                            <p class="exam-pro-tip">💡 \(n\) = number of unpaired electrons. Units are Bohr Magneton.
-                            </p>
+                            <p class="exam-pro-tip">💡 \(n\) = number of unpaired electrons.</p>
                         </div>
                         <div class="item">
-                            <label>Potassium Salts</label>
-                            <p class="exam-pro-tip">
-                                • <b>\(K_2Cr_2O_7\):</b> Orange, strong oxidant in acidic medium.<br>
-                                • <b>\(KMnO_4\):</b> Pink/Purple, oxidizes \(I^- \rightarrow I_2\), \(C_2O_4^{2-}
-                                \rightarrow CO_2\).
-                            </p>
+                            <label>Lanthanoid Contraction</label>
+                            <p class="exam-pro-tip">Steady decrease in atomic size due to poor shielding of 4f
+                                electrons. Why 5d series \(\approx\) 4d series size? Answer: Lanthanoid Contraction.</p>
+                        </div>
+                        <div class="item">
+                            <label>Oxidation States</label>
+                            <p class="exam-pro-tip">Mn shows maximum (+7). Sc shows only (+3). Zn shows only (+2).</p>
                         </div>
                     </div>
 
-                    <!-- 9. Coordination -->
+                    <!-- Unit 5 -->
                     <div class="formula-card">
                         <div class="card-header">
-                            <h3>9. Coordination Hub</h3>
-                            <span class="badge">Advanced Logic</span>
-                        </div>
-                        <div class="item">
-                            <label>Effective Atomic Number (EAN)</label>
-                            <div class="math-box">\(EAN = Z - ON + 2(CN)\)</div>
+                            <h3>Unit 5: Coordination</h3>
+                            <span class="badge high">Pure Logic</span>
                         </div>
                         <div class="item highlight">
-                            <label>CFT: Splitting Energy</label>
-                            <div class="math-box">
-                                \(\Delta_t = \frac{4}{9} \Delta_o\) <br>
-                                \(CFSE = (-0.4x + 0.6y)\Delta_o + nP\)
-                            </div>
-                            <p class="exam-pro-tip">💡 \(x\)=\(t_{2g}\), \(y\)=\(e_g\). \(P\)=Pairing energy.</p>
+                            <label>VBT & CFT Hub</label>
+                            <p class="exam-pro-tip"><b>VBT:</b> Look for unpaired electrons to find Paramagnetism. <br>
+                                <b>CFT:</b> Octahedral (\(t_{2g}\) down, \(e_g\) up); Tetrahedral (Reverse).</p>
+                        </div>
+                        <div class="item">
+                            <label>Splitting Formula</label>
+                            <div class="math-box">\(\Delta_t = \frac{4}{9} \Delta_o\)</div>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <!-- Organic Section (4 Chapters) -->
+            <!-- Units 6-9: Organic Chemistry -->
             <section id="organic" class="section">
                 <div class="section-banner organic">
-                    <h2>Organic Reaction Center</h2>
-                    <p>Haloalkanes • Alcohols • Aldehydes • Amines</p>
+                    <h2>Organic Chemistry Portal</h2>
+                    <p>Unit 6: Haloalkanes • 7: Alcohols/Phenols • 8: Aldehydes/Ketones • 9: Amines</p>
                 </div>
                 <div class="cards-container">
-                    <!-- 10. Haloalkanes -->
+                    <!-- Unit 6 & 7 -->
                     <div class="formula-card">
                         <div class="card-header">
-                            <h3>10. Haloalkanes</h3>
-                            <span class="badge">Subst.</span>
-                        </div>
-                        <div class="item highlight">
-                            <label>Reactivity Orders</label>
-                            <p class="exam-pro-tip">
-                                • <b>SN1:</b> \(3^o > 2^o > 1^o\) (Stability of Carbocation)<br>
-                                • <b>SN2:</b> \(1^o > 2^o > 3^o\) (Steric hindrance)
-                            </p>
-                        </div>
-                        <div class="item">
-                            <label>Optical Properties</label>
-                            <p class="exam-pro-tip">Racemic mixture (50% d + 50% l) is optically inactive due to
-                                external compensation.</p>
-                        </div>
-                    </div>
-
-                    <!-- 11. Alcohols -->
-                    <div class="formula-card">
-                        <div class="card-header">
-                            <h3>11. Alcohols & Phenols</h3>
-                            <span class="badge">Vital</span>
-                        </div>
-                        <div class="item highlight">
-                            <label>Acidity Factor</label>
-                            <p class="exam-pro-tip">Electron withdrawing groups (\(-NO_2, -CN\)) \(\uparrow\) acidity of
-                                phenols. Electron donating (\(-CH_3, -OCH_3\)) \(\downarrow\) acidity.</p>
-                        </div>
-                        <div class="item">
-                            <label>Ethers (Bond Angle)</label>
-                            <p class="exam-pro-tip">Bond angle in \(CH_3-O-CH_3\) is \(111.7^o\) (Greater than
-                                tetrahedral due to repulsion between two bulky alkyl groups).</p>
-                        </div>
-                    </div>
-
-                    <!-- 12. Aldehydes & Acids -->
-                    <div class="formula-card">
-                        <div class="card-header">
-                            <h3>12. Aldehydes & Acids</h3>
-                            <span class="badge">Mechanisms</span>
-                        </div>
-                        <div class="item highlight">
-                            <label>Nucleophilic Addition</label>
-                            <p class="exam-pro-tip">Order: \(HCHO > CH_3CHO > CH_3COCH_3\). Why? Inductive (+I) and
-                                Steric effects.</p>
-                        </div>
-                        <div class="item">
-                            <label>Acidic Strength (pKa)</label>
-                            <p class="exam-pro-tip">Lower the \(pKa\), stronger the acid. Trichloroacetic acid >
-                                Dichloro > Monochloro > Acetic acid.</p>
-                        </div>
-                    </div>
-
-                    <!-- 13. Amines -->
-                    <div class="formula-card">
-                        <div class="card-header">
-                            <h3>13. Amines Dash</h3>
-                            <span class="badge">Base Logic</span>
-                        </div>
-                        <div class="item highlight">
-                            <label>Basicity in Liquid/Gas</label>
-                            <p class="exam-pro-tip">
-                                • <b>Gas Phase:</b> \(3^o > 2^o > 1^o > NH_3\)<br>
-                                • <b>Aqueous (Methyl):</b> \(2^o > 1^o > 3^o > NH_3\)<br>
-                                • <b>Aqueous (Ethyl):</b> \(2^o > 3^o > 1^o > NH_3\)
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Applied Chemistry Section (3 Chapters) -->
-            <section id="applied" class="section">
-                <div class="section-banner applied">
-                    <h2>Applied Chemistry Portal</h2>
-                    <p>Biomolecules • Polymers • Everyday Life</p>
-                </div>
-                <div class="cards-container">
-                    <!-- 14. Biomolecules -->
-                    <div class="formula-card">
-                        <div class="card-header">
-                            <h3>14. Biomolecules</h3>
+                            <h3>Unit 6 & 7: RX & ROH</h3>
                             <span class="badge">Essential</span>
                         </div>
                         <div class="item highlight">
-                            <label>Carbohydrates (Glucose)</label>
-                            <p class="exam-pro-tip">
-                                • <b>Reducing Sugars:</b> All monosaccharides + Lactose/Maltose.<br>
-                                • <b>Non-Reducing:</b> Sucrose.<br>
-                                • <b>Glucose Reacts:</b> HI (n-hexane), \(NH_2OH\) (Oxime), \(Br_2/H_2O\) (Gluconic
-                                acid).
-                            </p>
+                            <label>SN1 vs SN2 (Crucial)</label>
+                            <p class="exam-pro-tip"><b>SN1:</b> \(3^o > 2^o > 1^o\) (Polar Protic Solvent). <br>
+                                <b>SN2:</b> \(1^o > 2^o > 3^o\) (Polar Aprotic Solvent).</p>
                         </div>
                         <div class="item">
-                            <label>Amino Acids (Zwitterion)</label>
-                            <p class="exam-pro-tip">At a specific pH (Isoelectric point), amino acids exist as dipolar
-                                ions called Zwitterions. Most are optically active except <b>Glycine</b>.</p>
-                        </div>
-                        <div class="item">
-                            <label>Proteins (Structure)</label>
-                            <p class="exam-pro-tip">Insulin contains 51 amino acids. Hb contains Iron. Primary (\(1^o\))
-                                structure is the sequence; Secondary (\(2^o\)) is \(\alpha\)-helix or \(\beta\)-pleated.
-                            </p>
+                            <label>Acidity Trends</label>
+                            <p class="exam-pro-tip"><b>Phenols:</b> \(o/p\)-Nitrophenol > Phenol > Cresols. Nitrophenyl
+                                is very acidic due to -I and -R effect of nitro group.</p>
                         </div>
                     </div>
 
-                    <!-- 15. Polymers -->
+                    <!-- Unit 8 -->
                     <div class="formula-card">
                         <div class="card-header">
-                            <h3>15. Polymers Hub</h3>
-                            <span class="badge">Monomer Mania</span>
+                            <h3>Unit 8: Carbonyls & Acids</h3>
+                            <span class="badge critical">Heavy Weight</span>
                         </div>
                         <div class="item highlight">
-                            <label>Master Monomer List</label>
-                            <p class="exam-pro-tip">
-                                • <b>Nylon 6:</b> Caprolactam.<br>
-                                • <b>Nylon 6,6:</b> Hexamethylenediamine + Adipic Acid.<br>
-                                • <b>Terylene/Dacron:</b> Ethylene Glycol + Terephthalic Acid.<br>
-                                • <b>Buna-N:</b> 1,3-Butadiene + Acrylonitrile.
-                            </p>
+                            <label>Aldol vs Cannizzaro</label>
+                            <p class="exam-pro-tip"><b>Aldol:</b> \(\alpha\)-H must be present (e.g., Ethanol). <br>
+                                <b>Cannizzaro:</b> No \(\alpha\)-H (e.g., Benzaldehyde, Formaldehyde).</p>
                         </div>
                         <div class="item">
-                            <label>Classification</label>
-                            <p class="exam-pro-tip">
-                                • <b>Thermoplastic:</b> Polythene, PVC (Reusable).<br>
-                                • <b>Thermosetting:</b> Bakelite, Melamine (Irreversible).
-                            </p>
+                            <label>Reactivity Order</label>
+                            <p class="exam-pro-tip">Aldehydes > Ketones for Nucleophilic Addition. (Steric & Inductive
+                                effects).</p>
                         </div>
                     </div>
 
-                    <!-- 16. Everyday Life -->
+                    <!-- Unit 9 -->
                     <div class="formula-card">
                         <div class="card-header">
-                            <h3>16. Chemistry in Life</h3>
-                            <span class="badge">Drugs & More</span>
+                            <h3>Unit 9: Amines Dash</h3>
+                            <span class="badge">Base Logic</span>
                         </div>
                         <div class="item highlight">
-                            <label>Drug Action Tips</label>
-                            <p class="exam-pro-tip">
-                                • <b>Antacids:</b> Ranitidine (Zantac), Cimetidine.<br>
-                                • <b>Antihistamines:</b> Brompheniramine, Terfenadine (Seldane).<br>
-                                • <b>Tranquilizers:</b> Equanil, Valium, Veronal (Barbiturates).
-                            </p>
+                            <label>Basicity Order (Aq. Medium)</label>
+                            <p class="exam-pro-tip"><b>Methyl (-CH3):</b> \(2^o > 1^o > 3^o > NH_3\) <br> <b>Ethyl
+                                    (-C2H5):</b> \(2^o > 3^o > 1^o > NH_3\)</p>
                         </div>
                         <div class="item">
-                            <label>Soaps & Detergents</label>
-                            <p class="exam-pro-tip">
-                                • <b>Anionic:</b> Sodium Lauryl Sulphate (Toothpaste).<br>
-                                • <b>Cationic:</b> Cetyltrimethylammonium bromide (Hair conditioners).
-                            </p>
+                            <label>Aromatic Basicity</label>
+                            <p class="exam-pro-tip">Aniline is less basic than Ammonia due to delocalization of lone
+                                pair into benzene ring.</p>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <!-- Hotspots Section -->
+            <!-- Unit 10: Biomolecules -->
+            <section id="applied" class="section">
+                <div class="section-banner applied">
+                    <h2>Biological Chemistry Hub</h2>
+                    <p>Unit 10: Biomolecules - Carbohydrates, Proteins, DNA/RNA</p>
+                </div>
+                <div class="cards-container">
+                    <div class="formula-card">
+                        <div class="card-header">
+                            <h3>Unit 10: Biomolecules</h3>
+                            <span class="badge">Revision Info</span>
+                        </div>
+                        <div class="item highlight">
+                            <label>Glucose Cheat Sheet</label>
+                            <p class="exam-pro-tip">HI \(\rightarrow\) n-Hexane. <br> $NH_2OH$ \(\rightarrow\) Oxime.
+                                <br> $Br_2/H_2O$ \(\rightarrow\) Gluconic acid.</p>
+                        </div>
+                        <div class="item">
+                            <label>Nucleic Acids (DNA/RNA)</label>
+                            <p class="exam-pro-tip"><b>DNA:</b> A, T, G, C. (AT/GC pairing). <br> <b>RNA:</b> A, U, G,
+                                C. (U instead of T).</p>
+                        </div>
+                        <div class="item">
+                            <label>Vitamins Master List</label>
+                            <p class="exam-pro-tip"><b>Fat Soluble:</b> A, D, E, K. <br> <b>Water Soluble:</b> B, C.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Revision Booster -->
             <section id="hotspots" class="section">
                 <div class="section-banner hotspots">
-                    <h2>🔥 2026 Exam Predictions & Tips</h2>
-                    <p>Ishu, ye master tips karke jaana!</p>
+                    <h2>✨ Exam Revision Booster</h2>
+                    <p>Pakka Questions • Distinction Tests • Conversion Tricks</p>
                 </div>
                 <div class="cards-container">
                     <div class="formula-card" data-importance="critical">
                         <div class="card-header">
-                            <h3>High-Probability Topics</h3>
+                            <h3>Distinction Tests</h3>
+                            <span class="badge critical">Pakka Q</span>
                         </div>
                         <div class="item highlight">
-                            <label>1. Electro & Kinetics Numericals</label>
-                            <p>Nernst Equation and 1st Order Kinetics are 100% coming. Practice 5-10 questions each!</p>
-                        </div>
-                        <div class="item highlight">
-                            <label>2. Organic Conversions</label>
-                            <p>Don't panic! Write down the starting material and product, then think of the reagents.
-                                Always look at Carbon count changes.</p>
-                        </div>
-                        <div class="item highlight">
-                            <label>3. Reasoning Questions</label>
-                            <p>Usually from d-block (Color, Magnetic properties) or p-block (Bond angles, Acidity).</p>
-                        </div>
-                    </div>
-                    <div class="formula-card">
-                        <div class="card-header">
-                            <h3>Super Revision Hack</h3>
+                            <label>Lucas Test (Alcohols)</label>
+                            <p class="exam-pro-tip">\(3^o\) (Cloudy immediately) | \(2^o\) (Cloudy in 5 mins) | \(1^o\)
+                                (Cloudy only on heating).</p>
                         </div>
                         <div class="item">
-                            <label>The 3-Step Strategy</label>
-                            <p>1. <strong>Physical:</strong> List all formulas and solve 1 NCERT example.<br>2.
-                                <strong>Inorganic:</strong> Re-read trends (Group 15-18) and d-f block colors.<br>3.
-                                <strong>Organic:</strong> Draw a mind-map for all Named Reactions.
+                            <label>Tollens & Fehlings</label>
+                            <p class="exam-pro-tip">Only Aldehydes give Silver Mirror. Ketones do not respond.</p>
+                        </div>
+                        <div class="item">
+                            <label>Iodoform Test</label>
+                            <p class="exam-pro-tip">Identifies \(CH_3CO\)- group (Ethanal, Acetone, Isopropyl alcohol).
                             </p>
                         </div>
+                    </div>
+
+                    <div class="formula-card">
+                        <div class="card-header">
+                            <h3>Last Minute Tips ❤️</h3>
+                        </div>
                         <div class="item">
-                            <label>Exam Day Tip ❤️</label>
-                            <p>Read the question twice, Ishu! Specially words like 'Not', 'Incorrect', or 'Except'.
-                                You've got this!</p>
+                            <label>Conversions Hack</label>
+                            <p>Draw a roadmap of reactions. Focus on Step-up (Cyanide/Grignard) and Step-down (Hofmann
+                                Bromamide).</p>
+                        </div>
+                        <div class="item">
+                            <p class="exam-pro-tip">Ishu, you have worked hard. Stay calm, read questions carefully.
+                                You'll crush it! 95+ Loading... 🚀</p>
                         </div>
                     </div>
                 </div>

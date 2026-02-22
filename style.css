@@ -1,16 +1,17 @@
 :root {
-    --primary: #6366f1;
-    --primary-dark: #4f46e5;
-    --accent: #f59e0b;
-    --critical: #ef4444;
-    --success: #10b981;
-    --bg-main: #0f172a;
-    --sidebar-bg: #1e293b;
-    --card-bg: rgba(30, 41, 59, 0.7);
-    --text-main: #f8fafc;
+    --primary: #818cf8;
+    --primary-dark: #6366f1;
+    --accent: #fbbf24;
+    --critical: #f87171;
+    --success: #34d399;
+    --bg-main: #020617;
+    --sidebar-bg: #0f172a;
+    --card-bg: #1e293b;
+    --text-main: #f1f5f9;
     --text-muted: #94a3b8;
-    --glass-border: rgba(255, 255, 255, 0.1);
-    --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --glass-border: rgba(255, 255, 255, 0.05);
+    --card-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.3);
+    --transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 * {
