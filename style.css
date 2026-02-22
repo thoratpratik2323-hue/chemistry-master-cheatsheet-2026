@@ -227,7 +227,7 @@ body {
 /* Cards Grid */
 .cards-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
     gap: 2rem;
 }
 
@@ -282,7 +282,8 @@ body {
 
 /* Formula Items */
 .item {
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
+    position: relative;
 }
 
 .item label {
@@ -297,12 +298,24 @@ body {
 
 .math-box {
     background: rgba(15, 23, 42, 0.5);
-    padding: 1.25rem;
+    padding: 1.5rem 1rem;
     border-radius: 12px;
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     text-align: center;
     border: 1px dashed var(--glass-border);
     color: #fff;
+    overflow-x: auto;
+    white-space: nowrap;
+    max-width: 100%;
+}
+
+.math-box::-webkit-scrollbar {
+    height: 4px;
+}
+
+.math-box::-webkit-scrollbar-thumb {
+    background: var(--primary);
+    border-radius: 10px;
 }
 
 .exam-pro-tip {
