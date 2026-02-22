@@ -116,10 +116,6 @@ body {
     color: #60a5fa;
 }
 
-.nav-links li.vibrant-green {
-    color: #4ade80;
-}
-
 .section-banner.protools {
     background: linear-gradient(135deg, rgba(37, 99, 235, 0.1), rgba(30, 64, 175, 0.1));
     border-color: rgba(37, 99, 235, 0.3);
@@ -555,11 +551,6 @@ body.flashcard-mode .kw-ans:hover {
 }
 
 /* Banners for new sections */
-.section-banner.labguide {
-    background: linear-gradient(135deg, rgba(16, 185, 129, 0.1), rgba(5, 150, 105, 0.1));
-    border-color: rgba(16, 185, 129, 0.3);
-}
-
 .section-banner.mistakes {
     background: linear-gradient(135deg, rgba(239, 68, 68, 0.1), rgba(185, 28, 28, 0.1));
     border-color: rgba(239, 68, 68, 0.3);
