@@ -116,6 +116,10 @@ body {
     color: #60a5fa;
 }
 
+.nav-links li.vibrant-green {
+    color: #4ade80;
+}
+
 .section-banner.protools {
     background: linear-gradient(135deg, rgba(37, 99, 235, 0.1), rgba(30, 64, 175, 0.1));
     border-color: rgba(37, 99, 235, 0.3);
@@ -529,6 +533,42 @@ body.flashcard-mode .math-box:hover,
 body.flashcard-mode .exam-pro-tip:hover,
 body.flashcard-mode .kw-ans:hover {
     filter: blur(0);
+}
+
+/* PYQ Badge */
+.pyq-badge {
+    background: rgba(248, 113, 113, 0.1);
+    color: #f87171;
+    padding: 0.25rem 0.75rem;
+    border-radius: 6px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    display: inline-block;
+    margin-bottom: 1rem;
+    border: 1px solid rgba(248, 113, 113, 0.2);
+}
+
+.pyq-badge.critical {
+    background: rgba(251, 191, 36, 0.1);
+    color: #fbbf24;
+    border-color: rgba(251, 191, 36, 0.2);
+}
+
+/* Banners for new sections */
+.section-banner.labguide {
+    background: linear-gradient(135deg, rgba(16, 185, 129, 0.1), rgba(5, 150, 105, 0.1));
+    border-color: rgba(16, 185, 129, 0.3);
+}
+
+.section-banner.mistakes {
+    background: linear-gradient(135deg, rgba(239, 68, 68, 0.1), rgba(185, 28, 28, 0.1));
+    border-color: rgba(239, 68, 68, 0.3);
+}
+
+/* Mistake card specific */
+.formula-card.critical {
+    border: 1px solid rgba(239, 68, 68, 0.3);
+    background: rgba(239, 68, 68, 0.05);
 }
 
 @media (max-width: 1024px) {
