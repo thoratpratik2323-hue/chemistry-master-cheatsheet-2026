@@ -66,6 +66,16 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
+    // Flashcard Toggle Logic
+    const flashcardToggle = document.getElementById('flashcardToggle');
+    flashcardToggle.addEventListener('change', () => {
+        if (flashcardToggle.checked) {
+            document.body.classList.add('flashcard-mode');
+        } else {
+            document.body.classList.remove('flashcard-mode');
+        }
+    });
+
     // Initial MathJax trigger
     if (window.MathJax) {
         window.MathJax.typesetPromise();
