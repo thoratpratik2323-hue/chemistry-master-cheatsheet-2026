@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chemistry Master Cheatsheet | Ishika's Board Prep 2026</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- MathJax for high-quality formulas -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
+<body>
+    <div class="glow-bg"></div>
+
+    <nav class="sidebar">
+        <div class="logo">🧪 <span>ChemMaster</span></div>
+        <ul class="nav-links">
+            <li class="active" data-target="physical"><span>💧</span> Physical</li>
+            <li data-target="inorganic"><span>💠</span> Inorganic</li>
+            <li data-target="organic"><span>🌿</span> Organic</li>
+            <li data-target="hotspots" class="vibrant"><span>🔥</span> Exam Hotspots</li>
+        </ul>
+        <div class="sidebar-footer">
+            <p>Made for Ishika ❤️</p>
+        </div>
+    </nav>
+
+    <main class="content">
+        <header class="main-header">
+            <div class="header-text">
+                <h1>Board Exam 2026 <span class="highlight">Master Sheet</span></h1>
+                <p>Ab ki baar, 95+ paar! Ishu, follow this guide to crush your Chemistry exam.</p>
+            </div>
+            <div class="search-bar">
+                <input type="text" id="formulaSearch" placeholder="Search formulas (e.g. Nernst, Rate Law)...">
+                <span class="search-icon">🔍</span>
+            </div>
+        </header>
+
+        <div class="chapter-grid" id="mainContainer">
+            <!-- Physical Chemistry Section -->
+            <section id="physical" class="section active">
+                <div class="section-banner solutions">
+                    <h2>Physical Chemistry</h2>
+                    <p>3 Chapters • Maximize your score here!</p>
+                </div>
+
+                <div class="cards-container">
+                    <div class="formula-card" data-importance="high">
+                        <div class="card-header">
+                            <h3>Solutions</h3>
+                            <span class="badge high">Very Important</span>
+                        </div>
+                        <div class="item">
+                            <label>Mole Fraction (\(\chi\))</label>
+                            <div class="math-box">\(\chi_A = \frac{n_A}{n_A + n_B} \quad | \quad \sum \chi = 1\)</div>
+                        </div>
+                        <div class="item">
+                            <label>Raoult's Law (RLVP)</label>
+                            <div class="math-box">\(\frac{P^0 - P_s}{P^0} = i \chi_{solute}\)</div>
+                        </div>
+                        <div class="item highlight">
+                            <label>Osmotic Pressure (\(\pi\))</label>
+                            <div class="math-box">\(\pi = i CRT\)</div>
+                            <p class="exam-pro-tip">💡 <strong>Numerical Fix:</strong> Isse molar mass nikalne ka sawal
+                                pakka aata h!</p>
+                        </div>
+                        <div class="item">
+                            <label>Elevation of BP & Depression of FP</label>
+                            <div class="math-box">\(\Delta T_b = i K_b m \quad | \quad \Delta T_f = i K_f m\)</div>
+                        </div>
+                    </div>
+
+                    <div class="formula-card" data-importance="critical">
+                        <div class="card-header">
+                            <h3>Electrochemistry</h3>
+                            <span class="badge critical">Exam Hotspot</span>
+                        </div>
+                        <div class="item highlight">
+                            <label>Nernst Equation (At 298K)</label>
+                            <div class="math-box">\(E_{cell} = E^0_{cell} - \frac{0.059}{n} \log Q\)</div>
+                            <p class="exam-pro-tip">🔥 <strong>Expected:</strong> Log \(Q\) ki value dhyan se nikalna
+                                Ishu!</p>
+                        </div>
+                        <div class="item">
+                            <label>Gibbs Free Energy</label>
+                            <div class="math-box">\(\Delta G^0 = -nFE^0_{cell}\)</div>
+                        </div>
+                        <div class="item">
+                            <label>Kohlrausch's Law</label>
+                            <div class="math-box">\(\Lambda^0_m = \nu_+ \lambda^0_+ + \nu_- \lambda^0_-\)</div>
+                        </div>
+                        <div class="item">
+                            <label>Molar Conductivity</label>
+                            <div class="math-box">\(\Lambda_m = \frac{\kappa \times 1000}{M}\)</div>
+                        </div>
+                    </div>
+
+                    <div class="formula-card">
+                        <div class="card-header">
+                            <h3>Chemical Kinetics</h3>
+                            <span class="badge">Must Practice</span>
+                        </div>
+                        <div class="item highlight">
+                            <label>First Order Rate Constant</label>
+                            <div class="math-box">\(k = \frac{2.303}{t} \log \frac{[R]_0}{[R]}\)</div>
+                        </div>
+                        <div class="item">
+                            <label>Half-Life (First Order)</label>
+                            <div class="math-box">\(t_{1/2} = \frac{0.693}{k}\)</div>
+                            <p class="exam-pro-tip">💡 Concentration pe depend nahi karta!</p>
+                        </div>
+                        <div class="item">
+                            <label>Arrhenius Equation</label>
+                            <div class="math-box">\(\log \frac{k_2}{k_1} = \frac{E_a}{2.303 R} \left[ \frac{1}{T_1} -
+                                \frac{1}{T_2} \right]\)</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Inorganic Section -->
+            <section id="inorganic" class="section">
+                <div class="section-banner inorganic">
+                    <h2>Inorganic Chemistry</h2>
+                    <p>d-block, f-block & Coordination Compounds</p>
+                </div>
+                <div class="cards-container">
+                    <div class="formula-card">
+                        <div class="card-header">
+                            <h3>Coordination Hub</h3>
+                            <span class="badge high">Pure Logic</span>
+                        </div>
+                        <div class="item highlight">
+                            <label>Magnetic Moment (\(\mu\))</label>
+                            <div class="math-box">\(\mu = \sqrt{n(n+2)} \, BM\)</div>
+                            <p class="exam-pro-tip">🔥 <strong>Exam Tip:</strong> n is number of unpaired electrons.
+                                Units: Bohr Magneton.</p>
+                        </div>
+                        <div class="item">
+                            <label>EAN Rule</label>
+                            <div class="math-box">\(EAN = Z - ON + 2(CN)\)</div>
+                        </div>
+                    </div>
+                    <div class="formula-card">
+                        <div class="card-header">
+                            <h3>d & f Block Tips</h3>
+                            <span class="badge">Reasoning Heavvy</span>
+                        </div>
+                        <div class="item">
+                            <label>Key Questions</label>
+                            <p class="exam-pro-tip">• Lanthanoid Contraction (Reasoning pakka aata h).<br>• Transition
+                                metals show variable oxidation states.<br>• Catalytic property of transition metals.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Organic Section -->
+            <section id="organic" class="section">
+                <div class="section-banner organic">
+                    <h2>Organic Chemistry</h2>
+                    <p>Reactions • Mechanisms • Distinction Tests</p>
+                </div>
+                <div class="cards-container">
+                    <div class="formula-card" data-importance="critical">
+                        <div class="card-header">
+                            <h3>Distinction Tests</h3>
+                            <span class="badge critical">Direct Marks</span>
+                        </div>
+                        <div class="item highlight">
+                            <label>Alcohols: Lucas Test</label>
+                            <p class="exam-pro-tip">3° (Immediate turbid) > 2° (5 min) > 1° (No turbidity). </p>
+                        </div>
+                        <div class="item highlight">
+                            <label>Aldehydes: Tollen's Test</label>
+                            <p class="exam-pro-tip">Ammoniacal Silver Nitrate gives Silver Mirror.</p>
+                        </div>
+                    </div>
+                    <div class="formula-card">
+                        <div class="card-header">
+                            <h3>Named Reactions</h3>
+                            <span class="badge high">Must Memorize</span>
+                        </div>
+                        <div class="item">
+                            <label>Aldol vs Cannizzaro</label>
+                            <p class="exam-pro-tip">Aldol: Requires Alpha-H. <br> Cannizzaro: No alpha-H required.</p>
+                        </div>
+                        <div class="item">
+                            <label>Reimer-Tiemann</label>
+                            <p class="exam-pro-tip">Phenol \(\xrightarrow{CHCl_3/NaOH}\) Salicylaldehyde.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Hotspots Section -->
+            <section id="hotspots" class="section">
+                <div class="section-banner hotspots">
+                    <h2>🔥 2026 Exam Predictions</h2>
+                    <p>Ishu, ye 5 topics pakka karke jaana!</p>
+                </div>
+                <div class="cards-container">
+                    <div class="formula-card">
+                        <div class="card-header">
+                            <h3>Top 5 High-Weightage Topics</h3>
+                        </div>
+                        <div class="item highlight">
+                            <label>1. Nernst Equation Numericals</label>
+                            <p>Calculate cell potential and equilibrium constant.</p>
+                        </div>
+                        <div class="item highlight">
+                            <label>2. Raoult's Law Deviations</label>
+                            <p>Vapor pressure graphs and examples (Positive vs Negative).</p>
+                        </div>
+                        <div class="item highlight">
+                            <label>3. SN1 vs SN2 Mechanism</label>
+                            <p>Factors affecting rate and stereochemistry (Inversion vs Racemization).</p>
+                        </div>
+                        <div class="item highlight">
+                            <label>4. d-Block Reasoning</label>
+                            <p>Why are transition metals colored? Why high enthalpies of atomization?</p>
+                        </div>
+                        <div class="item highlight">
+                            <label>5. Nucleophilic Addition (Aldehydes)</label>
+                            <p>HCN addition, NaHSO3 addition mechanisms.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
