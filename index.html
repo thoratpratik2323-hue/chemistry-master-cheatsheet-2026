@@ -56,91 +56,120 @@
                 <div class="cards-container">
                     <div class="formula-card" data-importance="high">
                         <div class="card-header">
-                            <h3>Solutions</h3>
-                            <span class="badge high">Very Important</span>
+                            <h3>Part 1: Solutions</h3>
+                            <span class="badge high">Numericals</span>
+                        </div>
+                        <div class="item">
+                            <label>Concentration Terms</label>
+                            <div class="math-box">
+                                \(M = \frac{n_B}{V(L)} \quad | \quad m = \frac{n_B}{W_A(kg)}\) <br>
+                                \(\% w/w = \frac{W_B}{W_A+W_B} \times 100\)
+                            </div>
                         </div>
                         <div class="item">
                             <label>Henry's Law</label>
                             <div class="math-box">\(P = K_H \cdot \chi\)</div>
-                            <p class="exam-pro-tip">💡 <strong>Typical Q:</strong> Solubility of gases (Scuba
-                                divers/Anoxia).</p>
+                            <p class="exam-pro-tip">💡 \(K_H\) increases with Temperature; Solubility decreases.</p>
                         </div>
                         <div class="item">
-                            <label>Mole Fraction (\(\chi\))</label>
-                            <div class="math-box">\(\chi_A = \frac{n_A}{n_A + n_B} \quad | \quad \sum \chi = 1\)</div>
+                            <label>Raoult's Law (Volatile Liquid)</label>
+                            <div class="math-box">\(P_{total} = P_A^0\chi_A + P_B^0\chi_B\)</div>
                         </div>
                         <div class="item">
-                            <label>Raoult's Law (RLVP)</label>
-                            <div class="math-box">\(\frac{P^0 - P_s}{P^0} = i \chi_{solute}\)</div>
+                            <label>Raoult's Law (Non-Volatile Solute)</label>
+                            <div class="math-box">\(\frac{P^0 - P_s}{P^0} = i \chi_{solute} \approx i \frac{n_B}{n_A}\)
+                            </div>
                         </div>
                         <div class="item highlight">
-                            <label>Osmotic Pressure (\(\pi\))</label>
-                            <div class="math-box">\(\pi = i CRT\)</div>
-                            <p class="exam-pro-tip">🔥 <strong>Expected:</strong> Find Molecular Mass of
-                                Protein/Polymers.</p>
+                            <label>Colligative Properties</label>
+                            <div class="math-box">
+                                \(\Delta T_b = i K_b m\) <br>
+                                \(\Delta T_f = i K_f m\) <br>
+                                \(\pi = i CRT\)
+                            </div>
                         </div>
                         <div class="item">
                             <label>Van't Hoff Factor (\(i\))</label>
-                            <div class="math-box">\(i = \frac{\text{Observed property}}{\text{Calculated property}} = 1
-                                + (n-1)\alpha\)</div>
-                            <p class="exam-pro-tip">💡 Dissociation (\(i>1\)) vs Association (\(i<1\)).< /p>
-                        </div>
-                        <div class="item">
-                            <label>Boiling & Freezing</label>
-                            <div class="math-box">\(\Delta T_b = i K_b m \quad | \quad \Delta T_f = i K_f m\)</div>
+                            <div class="math-box">\(i = 1 + (n-1)\alpha \text{ (Dissoc.)} \quad | \quad i = 1 +
+                                (\frac{1}{n}-1)\alpha \text{ (Assoc.)}\)</div>
                         </div>
                     </div>
 
                     <div class="formula-card" data-importance="critical">
                         <div class="card-header">
-                            <h3>Electrochemistry</h3>
-                            <span class="badge critical">Exam Hotspot</span>
+                            <h3>Part 2: Electrochemistry</h3>
+                            <span class="badge critical">Heavy Weightage</span>
+                        </div>
+                        <div class="item">
+                            <label>Cell Potential (\(E_{cell}\))</label>
+                            <div class="math-box">\(E_{cell} = E_{cathode} - E_{anode}\)</div>
                         </div>
                         <div class="item highlight">
-                            <label>Nernst Equation (At 298K)</label>
-                            <div class="math-box">\(E_{cell} = E^0_{cell} - \frac{0.059}{n} \log Q\)</div>
-                            <p class="exam-pro-tip">🔥 <strong>Numerical:</strong> Calculate EMF of cell or Equilibrium
-                                Constant (\(K_c\)).</p>
+                            <label>Nernst Equation</label>
+                            <div class="math-box">\(E_{cell} = E^0_{cell} - \frac{0.059}{n} \log \frac{[\text{Anodic
+                                Ion}]}{[\text{Cathodic Ion}]}\)</div>
                         </div>
                         <div class="item">
-                            <label>Gibbs Free Energy</label>
-                            <div class="math-box">\(\Delta G^0 = -nFE^0_{cell}\)</div>
+                            <label>Equilibrium Constant (\(K_c\))</label>
+                            <div class="math-box">\(\log K_c = \frac{n E^0_{cell}}{0.059}\)</div>
                         </div>
                         <div class="item">
-                            <label>Resistance & Conductivity</label>
-                            <div class="math-box">\(\kappa = \left( \frac{1}{R} \right) \cdot \left( \frac{l}{A} \right)
-                                \quad | \quad \text{Cell Const} = \frac{l}{A}\)</div>
+                            <label>Gibbs Energy (\(\Delta G^0\))</label>
+                            <div class="math-box">\(\Delta G^0 = -nFE^0_{cell} = -2.303 RT \log K_c\)</div>
                         </div>
                         <div class="item">
-                            <label>Kohlrausch's Law</label>
-                            <div class="math-box">\(\Lambda^0_m = \nu_+ \lambda^0_+ + \nu_- \lambda^0_-\)</div>
+                            <label>Conductivity & Molar Conductivity</label>
+                            <div class="math-box">
+                                \(\kappa = G \cdot G^* \quad (\text{where } G^* = l/A)\) <br>
+                                \(\Lambda_m = \frac{\kappa \times 1000}{M}\)
+                            </div>
                         </div>
                         <div class="item">
-                            <label>Faraday's I Law</label>
-                            <div class="math-box">\(w = ZIt = \frac{E}{96500} \cdot It\)</div>
-                            <p class="exam-pro-tip">💡 <strong>Typical Q:</strong> How much charge for 1 mole of
-                                \(\text{Al}^{3+}\) to \(\text{Al}\)? (Ans: 3F).</p>
+                            <label>Kohlrausch's Law & Degree of Dissoc.</label>
+                            <div class="math-box">
+                                \(\alpha = \frac{\Lambda_m}{\Lambda_m^0} \quad | \quad K_a =
+                                \frac{C\alpha^2}{1-\alpha}\)
+                            </div>
+                        </div>
+                        <div class="item">
+                            <label>Electrolysis (Faraday's Laws)</label>
+                            <div class="math-box">\(w = \frac{E It}{96500} \quad | \quad Q = It = nF\)</div>
                         </div>
                     </div>
 
                     <div class="formula-card">
                         <div class="card-header">
-                            <h3>Chemical Kinetics</h3>
-                            <span class="badge">Must Practice</span>
-                        </div>
-                        <div class="item highlight">
-                            <label>First Order Rate Constant</label>
-                            <div class="math-box">\(k = \frac{2.303}{t} \log \frac{[R]_0}{[R]}\)</div>
+                            <h3>Part 3: Chemical Kinetics</h3>
+                            <span class="badge">Speed of Prep</span>
                         </div>
                         <div class="item">
-                            <label>Half-Life (First Order)</label>
-                            <div class="math-box">\(t_{1/2} = \frac{0.693}{k}\)</div>
-                            <p class="exam-pro-tip">💡 Concentration pe depend nahi karta!</p>
+                            <label>Average & Instantaneous Rate</label>
+                            <div class="math-box">\(v = -\frac{1}{a} \frac{\Delta[A]}{\Delta t} = \frac{1}{b}
+                                \frac{\Delta[B]}{\Delta t}\)</div>
+                        </div>
+                        <div class="item">
+                            <label>Rate Law Expression</label>
+                            <div class="math-box">\(Rate = k [A]^x [B]^y \quad (\text{Order } = x+y)\)</div>
+                        </div>
+                        <div class="item">
+                            <label>Units of Rate Constant (\(k\))</label>
+                            <div class="math-box">\((\text{mol L}^{-1})^{1-n} s^{-1}\)</div>
+                            <p class="exam-pro-tip">💡 Zero order: M/s | First order: 1/s.</p>
+                        </div>
+                        <div class="item highlight">
+                            <label>Zero Order Integrated Rate</label>
+                            <div class="math-box">\(k = \frac{[R]_0 - [R]}{t} \quad | \quad t_{1/2} = \frac{[R]_0}{2k}\)
+                            </div>
+                        </div>
+                        <div class="item highlight">
+                            <label>First Order Integrated Rate</label>
+                            <div class="math-box">\(k = \frac{2.303}{t} \log \frac{[R]_0}{[R]} \quad | \quad t_{1/2} =
+                                \frac{0.693}{k}\)</div>
                         </div>
                         <div class="item">
                             <label>Arrhenius Equation</label>
-                            <div class="math-box">\(\log \frac{k_2}{k_1} = \frac{E_a}{2.303 R} \left[ \frac{1}{T_1} -
-                                \frac{1}{T_2} \right]\)</div>
+                            <div class="math-box">\(\log \frac{k_2}{k_1} = \frac{E_a}{2.303 R} \left[ \frac{T_2 -
+                                T_1}{T_1 T_2} \right]\)</div>
                         </div>
                     </div>
                 </div>
@@ -201,40 +230,110 @@
                 <div class="cards-container">
                     <div class="formula-card" data-importance="critical">
                         <div class="card-header">
-                            <h3>Distinction Tests</h3>
-                            <span class="badge critical">5 Marks Confirmed</span>
+                            <h3>Essential Distinction Tests</h3>
+                            <span class="badge critical">Free 5 Marks</span>
                         </div>
                         <div class="item highlight">
-                            <label>Iodoform Test (Yellow PPT)</label>
-                            <p class="exam-pro-tip">Shows for: \(\text{CH}_3\text{CO}-\) groups or
-                                \(\text{CH}_3\text{CH(OH)}-\) groups.</p>
+                            <label>Alcohols (Lucas Test)</label>
+                            <p class="exam-pro-tip">3° Alcohol \(\xrightarrow{\text{Immediate Turbidity}}\)<br>2°
+                                Alcohol \(\xrightarrow{\text{Turbidity in 5 min}}\)<br>1° Alcohol
+                                \(\xrightarrow{\text{No Turbidity}}\)</p>
                         </div>
                         <div class="item highlight">
-                            <label>Carbylamine Reaction</label>
-                            <p class="exam-pro-tip">Only 1° Amine \(\rightarrow\) Foul smelling Isocyanide.</p>
+                            <label>Phenol vs Alcohol (FeCl3 Test)</label>
+                            <p class="exam-pro-tip">Phenol + Neutral \(\text{FeCl}_3 \rightarrow\) <b>Violet Color</b>.
+                                Alcohol gives no color.</p>
                         </div>
-                        <div class="item">
-                            <label>Azo Dye Test</label>
-                            <p class="exam-pro-tip">Aniline vs Ethylamine (Orange dye formation).</p>
+                        <div class="item highlight">
+                            <label>Aldehyde vs Ketone (Tollen's/Fehling)</label>
+                            <p class="exam-pro-tip">Aldehyde \(\rightarrow\) <b>Silver Mirror</b> (Tollen's) or <b>Red
+                                    PPT</b> (Fehling). Ketones do not react.</p>
+                        </div>
+                        <div class="item highlight">
+                            <label>Methyl Ketones (Iodoform Test)</label>
+                            <p class="exam-pro-tip">Compound with \(\text{CH}_3\text{CO}\)- group +
+                                \(\text{I}_2/\text{NaOH} \rightarrow\) <b>Yellow PPT</b> (\(\text{CHI}_3\)).</p>
+                        </div>
+                        <div class="item highlight">
+                            <label>Amines (Carbylamine Test)</label>
+                            <p class="exam-pro-tip">1° Amine \(\rightarrow\) <b>Foul Smell</b>. (2°/3° do not give
+                                this).</p>
+                        </div>
+                        <div class="item highlight">
+                            <label>Primary vs Secondary Amine (Hinsberg)</label>
+                            <p class="exam-pro-tip">1°: Soluble in KOH. <br> 2°: Insoluble in KOH. <br> 3°: Does not
+                                react.</p>
                         </div>
                     </div>
                     <div class="formula-card">
                         <div class="card-header">
-                            <h3>Named Reactions</h3>
-                            <span class="badge high">Conversions</span>
+                            <h3>All Key Named Reactions</h3>
+                            <span class="badge high">Must Memorize</span>
                         </div>
                         <div class="item">
-                            <label>Hoffmann Bromamide</label>
-                            <p class="exam-pro-tip">Amide \(\rightarrow\) Amine (1 Carbon less).</p>
+                            <label>1. Finkelstein & Swarts</label>
+                            <p class="exam-pro-tip">Finkelstein: \(\text{RI}\) formation
+                                (\(\text{NaI/Acetone}\)).<br>Swarts: \(\text{RF}\) formation (\(\text{AgF,
+                                Hg}_2\text{F}_2\)).</p>
                         </div>
                         <div class="item">
-                            <label>Gabriel Phthalimide</label>
-                            <p class="exam-pro-tip">Preparation of pure 1° aliphatic amines.</p>
+                            <label>2. Wurtz, Fittig, Wurtz-Fittig</label>
+                            <p class="exam-pro-tip">Coupling of Halides to Alkanes/Arenes using <b>dry ether and Na</b>.
+                            </p>
                         </div>
-                        <div class="item italic">
-                            <label>Biomolecules: Glucose</label>
-                            <p class="exam-pro-tip">• HI \(\rightarrow\) n-Hexane.<br>•
-                                \(\text{Br}_2/\text{H}_2\text{O}\) \(\rightarrow\) Gluconic acid.</p>
+                        <div class="item">
+                            <label>3. Sandmeyer & Gatterman</label>
+                            <p class="exam-pro-tip">\(\text{BDC} \rightarrow\) Aryl Halides using \(\text{CuCl/HCl}\) or
+                                \(\text{Cu/HCl}\).</p>
+                        </div>
+                        <div class="item">
+                            <label>4. Reimer-Tiemann & Kolbe's</label>
+                            <p class="exam-pro-tip">Phenol \(\rightarrow\) Salicylaldehyde (RT) or Salicylic Acid
+                                (Kolbe's).</p>
+                        </div>
+                        <div class="item">
+                            <label>5. Rosenmund & Stephen Reduction</label>
+                            <p class="exam-pro-tip">Preparation of Aldehydes from Acid Halides (Rosen) or Nitriles
+                                (Stephen).</p>
+                        </div>
+                        <div class="item">
+                            <label>6. Aldol, Cannizzaro, Cross-Aldol</label>
+                            <p class="exam-pro-tip">Alpha-H present \(\rightarrow\) Aldol. <br> No Alpha-H
+                                \(\rightarrow\) Cannizzaro.</p>
+                        </div>
+                        <div class="item">
+                            <label>7. Hoffmann Bromamide & Gabriel Phthalimide</label>
+                            <p class="exam-pro-tip">Hoffman: \(\text{Amide} \rightarrow \text{Amine}\) (1 carbon
+                                less).<br>Gabriel: Pure 1° Amine prep.</p>
+                        </div>
+                        <div class="item">
+                            <label>8. Wolff-Kishner & Clemmensen</label>
+                            <p class="exam-pro-tip">\(\text{C=O} \rightarrow \text{CH}_2\) reduction. (Wolff: Basic |
+                                Clemmensen: Acidic).</p>
+                        </div>
+                    </div>
+                    <div class="formula-card">
+                        <div class="card-header">
+                            <h3>Biomolecules & Mechanisms</h3>
+                            <span class="badge">Last Minute</span>
+                        </div>
+                        <div class="item">
+                            <label>Glucose Reactions</label>
+                            <p class="exam-pro-tip">HI: n-hexane | \(\text{Br}_2/\text{H}_2\text{O}\): Gluconic acid |
+                                \(\text{HNO}_3\): Saccharic acid.</p>
+                        </div>
+                        <div class="item">
+                            <label>Amino Acids</label>
+                            <p class="exam-pro-tip">Zwitterion formation | Peptide bond (\(\text{-CO-NH-}\)).</p>
+                        </div>
+                        <div class="item">
+                            <label>Nucleic Acids</label>
+                            <p class="exam-pro-tip">DNA: A,G,C,T | RNA: A,G,C,U. Phosphodiester linkage.</p>
+                        </div>
+                        <div class="item highlight">
+                            <label>Organic Mechanisms (Pakka 3 Marks)</label>
+                            <p class="exam-pro-tip">1. Dehydration of Ethanol to Ethene/Ether.<br>2. Hydration of Ethene
+                                to Ethanol.<br>3. Nucleophilic Addition to Aldehydes.</p>
                         </div>
                     </div>
                 </div>
